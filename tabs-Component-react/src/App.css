@@ -1,0 +1,72 @@
+body {
+  background-color: #CD5C08;
+}
+.tabs-container {
+  max-width: 800px;
+  height: 600px;
+  margin: 100px auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff5e4;
+  border-radius: 50px;
+}
+.tabs-container h2 {
+  color: #cd5c08;
+  padding-top: 50px;
+}
+.tabs-header {
+  background-color: #c1d8c3;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.tabs-header button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6a9c89;
+  color: #fff;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+.tabs-header button:hover {
+  background-color: #cd5c08;
+}
+
+.content-text {
+  color: #6A9C89;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5e4e1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+@media (min-width: 448px) and (max-width: 768px) {
+  .tabs-container h2 {
+    font-size: 1rem;
+    margin:  30px;
+  }
+  .tabs-header{
+    margin: auto 30px;
+  }
+  .tabs-header button { 
+    width: 50px;
+    height: 30px;
+    font-size: .5rem;
+    
+
+  }
+  .content-text {
+    margin: auto 30px;
+  }
+}
